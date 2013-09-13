@@ -1,0 +1,2 @@
+ipmitool -H 10.1.3.178 -U root -P r00t mc
+ipmitool -H 10.1.3.178 -U root -P r00t mc reset cold

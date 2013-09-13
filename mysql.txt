@@ -1,0 +1,5 @@
+# mysqldump && scp
+ mysqldump -u root -p mantis129 | ssh mondaychou@10.1.0.104 "cat > mantis129.sql"
+
+# show users
+SELECT User,Host FROM mysql.user; 

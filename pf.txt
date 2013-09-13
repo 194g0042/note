@@ -1,0 +1,14 @@
+#pfctl -f /etc/pf.conf            //重新載入 pf.conf 設定檔
+#pfctl -nf /etc/pf.conf           //檢查 PF 語法是否正確 (未載入)
+#pfctl -e                         //啟用 PF (開啟 Packet Filter 功能)
+#pfctl -d                         //禁用 PF (關閉 Packet Filter 功能)
+#pfctl -Nf /etc/pf.conf           //僅載入 NAT 的設定檔
+#pfctl -Rf /etc/pf.conf           //僅載入防火牆的過濾設定檔
+#pfctl -sn                        //顯示現階段 NAT 的規則
+#pfctl -sr                        //顯示現階段過濾的規則
+#pfctl -ss                        //顯示現階段封包運作狀態
+#pfctl -si                        //顯示現階段過濾封包的統計資料
+#pfctl -sa                        //顯示現階段所有統計的資料
+#pfctl -vsr                       //顯示現階段過濾封包的統計資料
+#pfctl -t ssh-bruteforce -Tshow   //顯示 table 內資料
+#pfctl -Fa -e -f /etc/pf.conf     //清除所有規則、啟用 PF、載入 pf.conf 設定檔

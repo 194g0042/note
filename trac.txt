@@ -1,0 +1,2 @@
+# trac restart
+sudo /usr/local/etc/rc.d/apache22 restart;sudo killall python2.7;sudo /usr/local/etc/rc.d/apache22 start

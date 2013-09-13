@@ -1,0 +1,2 @@
+sudo vserver db-cinderella-1-bak build -m debootstrap -n db-cinderella-1-bak --hostname db-cinderella-1-bak --interface eth0:10.1.0.251 -- -d squeeze -m http://ftp.jp.debian.org/debian
+

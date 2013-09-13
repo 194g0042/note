@@ -1,0 +1,2 @@
+移除被封鎖的ip
+pfctl -t sshguard -T d 180.218.155.177
