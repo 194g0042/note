@@ -3,5 +3,3 @@ b config save xxx.ucs
 
 #備份f5 config (純文字)
 bigpipe [base save | save | save all]
-
-test
